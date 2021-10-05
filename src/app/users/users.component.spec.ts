@@ -12,7 +12,8 @@ describe('UsersComponent', () => {
   beforeEach(async(() => {
     TestBed.configureTestingModule({
       declarations: [UsersComponent],
-    }).compileComponents();
+    });
+    // .compileComponents();
   }));
 
   beforeEach(() => {
@@ -28,6 +29,6 @@ describe('UsersComponent', () => {
 
   it('should render the correct title', () => {
     const h1 = debug.query(By.css('h1'));
-    expect(h1.nativeElement.innerText).toBe('Hello Users!');
+    expect(h1.nativeElement.innerText).toBe(component.title);
   });
 });
