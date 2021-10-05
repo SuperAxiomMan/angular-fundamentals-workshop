@@ -2,9 +2,23 @@
   "courses": [
     {
       "id": 1,
-      "title": "Angular 9 Fundamentals",
+      "title": "Angular 12 Fundamentals",
       "description": "Learn the fundamentals of Angular 9",
       "percentComplete": 26,
+      "favorite": true
+    },
+    {
+      "id": 2,
+      "title": "Cheering JS with console logs",
+      "description": "Learn to cheer your code with console.log()",
+      "percentComplete": 49,
+      "favorite": false
+    },
+    {
+      "id": 3,
+      "title": "Ultimate Course",
+      "description": "Learn to be an ultimate GOD",
+      "percentComplete": 13,
       "favorite": true
     }
   ]
